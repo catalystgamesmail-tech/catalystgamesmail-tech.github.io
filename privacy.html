@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Story Video Bot</title>
+<style>
+body {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 0 22px;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+  color: #152c2a;
+  background: #fcfdfb;
+}
+h1 { font-size: 42px; line-height: 1.2; }
+h2 { margin-top: 32px; }
+a { color: #155d50; }
+code { overflow-wrap: anywhere; }
+nav { border-bottom: 1px solid #d5e1db; padding-bottom: 16px; }
+nav a { margin-right: 20px; }
+footer {
+  border-top: 1px solid #d5e1db;
+  margin-top: 40px;
+  padding-top: 20px;
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main navigation">
+  <a href="index.html">Home</a>
+  <a href="privacy.html">Privacy policy</a>
+  <a href="terms.html">Terms</a>
+</nav>
+
+<main>
+<h1>Privacy Policy</h1>
+<p>Last updated: November 15, 2026</p>
+
+<h2>About this application</h2>
+<p>
+Story Video Bot is a personal Windows application operated by
+catalystgamesmail-tech for their own YouTube channel. This policy
+describes the application and its informational website.
+</p>
+
+<h2>Google permissions</h2>
+<p>The application requests these permissions:</p>
+<ul>
+  <li>
+    <code>https://www.googleapis.com/auth/youtube.readonly</code>
+    — to retrieve channel identity information and confirm the
+    intended upload destination.
+  </li>
+  <li>
+    <code>https://www.googleapis.com/auth/youtube.upload</code>
+    — to upload videos and associated metadata, including optional
+    future publication times.
+  </li>
+</ul>
+
+<p>
+Google handles sign-in and consent in the browser. The application
+does not request or store the Google account password. Authorization
+tokens let it operate later without repeating sign-in while
+authorization remains valid.
+</p>
+
+<h2>Information stored on the computer</h2>
+<p>
+The application stores channel identifiers and names, authorization
+tokens, video metadata, publishing times, upload identifiers and
+status, local file paths, file hashes, settings, receipts, and
+recovery records on the operator's computer.
+</p>
+
+<p>
+Generated stories, narration, captions, videos, history, and
+operational logs are also stored locally.
+</p>
+
+<p>
+Authorization tokens and resumable upload addresses are encrypted
+using Windows DPAPI for the current Windows account. Settings,
+upload journals, other records, and the downloaded OAuth client
+configuration are not encrypted by the application. The operator
+controls access to these files and the computer.
+</p>
+
+<h2>Sharing and other providers</h2>
+<p>
+Authorized videos and metadata are sent to Google/YouTube.
+Uploads start private. Enabled scheduling makes them public
+at the selected times. Google processes this information under
+the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+</p>
+
+<p>
+The application has no data-selling, advertising-tracking, or
+model-training feature. It does not send Google account data
+to the local story or voice models. Setup may download model
+files from their providers, which receive ordinary download requests.
+</p>
+
+<h2>Website privacy</h2>
+<p>
+This website adds no JavaScript, cookies, analytics, or collection
+forms. GitHub Pages hosts it and may process visitor request
+information under the
+<a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">
+GitHub Privacy Statement</a>.
+</p>
+
+<h2>Retention and disconnecting</h2>
+<p>
+There is no automatic account-data deletion feature. Local files
+remain under the operator's control.
+</p>
+
+<p>To disconnect the application:</p>
+<ol>
+  <li>
+    Pause automatic uploads, disable the daily task, and stop
+    the running application.
+  </li>
+  <li>
+    Open
+    <a href="https://myaccount.google.com/connections">
+    Google Account connections</a>
+    and remove the application's access.
+  </li>
+  <li>
+    Delete the application's local
+    <code>state/youtube/auth.dpapi</code> file.
+  </li>
+</ol>
+
+<p>
+Revoking access or deleting local files does not delete uploaded
+videos or cancel scheduled publication. Manage those items in
+YouTube Studio.
+</p>
+
+<h2>Deleting other local information</h2>
+<p>
+To remove other local data permanently, first stop using the
+application and check any pending uploads in YouTube Studio.
+Then delete the desired local records and outputs.
+</p>
+
+<p>
+Do not delete recovery journals merely to retry an uncertain
+upload; doing so can create duplicates.
+</p>
+
+<h2>Contact</h2>
+<p>
+Use the operator's support email shown on this application's
+Google authorization screen.
+</p>
+</main>
+
+<footer>
+Personal project operated by catalystgamesmail-tech.
+</footer>
+
+</body>
+</html>
